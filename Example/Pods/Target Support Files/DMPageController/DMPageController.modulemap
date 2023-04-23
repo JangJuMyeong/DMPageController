@@ -1,0 +1,6 @@
+framework module DMPageController {
+  umbrella header "DMPageController-umbrella.h"
+
+  export *
+  module * { export * }
+}

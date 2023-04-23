@@ -43,10 +43,10 @@
 		607FACE51AFB9204008FA782 /* DMPageController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMPageController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		60FC23EABB132621D096B62A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		77C8C0A5CE1FF7F28EEBDF94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		60FC23EABB132621D096B62A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		77C8C0A5CE1FF7F28EEBDF94 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B22B3781B602FC1936977E80 /* Pods_DMPageController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMPageController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD3D73826AC576C38C058B08 /* DMPageController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DMPageController.podspec; path = ../DMPageController.podspec; sourceTree = "<group>"; };
+		FD3D73826AC576C38C058B08 /* DMPageController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DMPageController.podspec; path = ../DMPageController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				606122EC3C37BF79D09D1A3C /* Pods-DMPageController_Tests.debug.xcconfig */,
 				0BC00547FC9ED1071870A2C8 /* Pods-DMPageController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

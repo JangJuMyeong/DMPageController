@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DMPageController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DMPageController.'
+  s.summary          = 'This is a simple page controller.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/66667091/DMPageController'
+  s.homepage         = 'https://github.com/JangJuMyeong/DMPageController.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '66667091' => 'isouvezz@gmail.com' }
-  s.source           = { :git => 'https://github.com/66667091/DMPageController.git', :tag => s.version.to_s }
+  s.author           = { 'Daniel' => 'isouvezz@gmail.com' }
+  s.source           = { :git => 'https://github.com/JangJuMyeong/DMPageController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
 
   s.source_files = 'DMPageController/Classes/**/*'
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'DMPageController' => ['DMPageController/Assets/*.png']

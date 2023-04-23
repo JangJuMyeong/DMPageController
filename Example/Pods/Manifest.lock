@@ -1,0 +1,16 @@
+PODS:
+  - DMPageController (0.1.0)
+
+DEPENDENCIES:
+  - DMPageController (from `../`)
+
+EXTERNAL SOURCES:
+  DMPageController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DMPageController: 2b0d18a9cc0d9354f84720c754149f5f3a2c39b7
+
+PODFILE CHECKSUM: 0e967f39552b54ddbf274f58c23366eea88591a2
+
+COCOAPODS: 1.11.3

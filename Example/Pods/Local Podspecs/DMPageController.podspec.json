@@ -1,0 +1,22 @@
+{
+  "name": "DMPageController",
+  "version": "0.1.0",
+  "summary": "A short description of DMPageController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/66667091/DMPageController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "66667091": "isouvezz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/66667091/DMPageController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "DMPageController/Classes/**/*"
+}
