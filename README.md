@@ -29,6 +29,8 @@ public enum PageContollerType {
     case DMCustomSlide(size: CGSize)
 }
 
+
+
 let pageController: DMPageControlView = {
     let view = DMPageControlView()
     return view
@@ -48,6 +50,11 @@ override func viewDidLoad() {
         pageController.centerYAnchor.constraint(equalTo: self.view.centerYAnchor)
     ])
 }
+
+    @IBAction func nextButton(_ sender: Any) {
+    //The page is the index value you want to move.
+        pageController.changePage(page)
+    }
 ```
 
 ## Installation
