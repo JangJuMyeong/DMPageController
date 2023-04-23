@@ -51,10 +51,10 @@ override func viewDidLoad() {
     ])
 }
 
-    @IBAction func nextButton(_ sender: Any) {
-    //The page is the index value you want to move.
-        pageController.changePage(page)
-    }
+@IBAction func nextButton(_ sender: Any) {
+//The page is the index value you want to move.
+     pageController.changePage(page)
+}
 ```
 
 ## Installation
